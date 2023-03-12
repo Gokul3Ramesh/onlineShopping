@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
         <title>Electronic Gadgets</title>
       </Head>
       <header>
+        
         {" "}
         <Navbar />{" "}
       </header>
