@@ -15,10 +15,6 @@ const index = ({ products, banners }) => {
     <div className="home">
       <React.Fragment><MainBanner mainBanner={banners.length && banners[0]} />
           <ProductHover products={products} />
-          <ProductHover products={products} />
-          <ProductHover products={products} />
-          <ProductHover products={products} />
-          <ProductHover products={products} />
           <FooterBanner footerBanner={banners.length && banners[0]} /></React.Fragment>
     </div>
   );

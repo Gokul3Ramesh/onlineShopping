@@ -106,10 +106,6 @@ const Products = ({ product, products }) => {
       </div>
 
       <ProductHover products={products} />
-      <ProductHover products={products} />
-      <ProductHover products={products} />
-      <ProductHover products={products} />
-      <ProductHover products={products} />
     </div>
   ) : (
     <Login />
